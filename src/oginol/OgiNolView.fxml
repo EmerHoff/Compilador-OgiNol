@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="oginol.OgiNolViewController">
+   <center>
+      <VBox alignment="CENTER" prefHeight="100.0" prefWidth="80.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="buttonAbrir" mnemonicParsing="false" onAction="#abrirAction" prefHeight="50.0" prefWidth="178.0" text="Abrir" textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="15.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="buttonCompilar" mnemonicParsing="false" onAction="#actionCompila" prefHeight="50.0" prefWidth="178.0" text="Compilar" textAlignment="CENTER">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
